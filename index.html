@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" rel="javascript">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <style>
         /* CSS HERE */
     </style>
@@ -24,7 +24,7 @@
         // JS HERE
         function runit() {
             console.log("click detected!!!!");
-            html2canvas($('#preview'), {  
+            html2canvas($('#raw_html').value, {  
                 onrendered: function (canvas) {
                     var canvasImg = canvas.toDataURL("image/jpg");
                     $('#canvasImg').html('<img src="'+canvasImg+'" alt="">');
