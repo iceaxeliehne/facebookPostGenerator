@@ -23,6 +23,12 @@
         // JS HERE
         function runit() {
             console.log("click detected!!!!");
+            html2canvas($('#preview'), {  
+                onrendered: function (canvas) {
+                    var canvasImg = canvas.toDataURL("image/jpg");
+                    $('#canvasImg').html('<img src="'+canvasImg+'" alt="">');
+                }
+            });
         }
 
 
