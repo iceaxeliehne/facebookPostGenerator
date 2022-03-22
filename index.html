@@ -18,6 +18,7 @@
 
     <button onclick="runit()">ENGAGE</button>
 
+    <div id="newContent"></div>
 
     <canvas id="myCanvas" width="1200" height="1200"></canvas>
     <div id="canvasImg"></div>
@@ -25,7 +26,9 @@
         // JS HERE
         function runit() {
             console.log("click detected!!!!");
-            html2canvas($('#raw_html').value, {  
+            console.log($('#raw_html').val());
+            $("#newContent").html($('#raw_html').val());
+            html2canvas($("#newContent"), {  
                 onrendered: function (canvas) {
                     var canvasImg = canvas.toDataURL("image/jpg");
                     $('#canvasImg').html('<img src="'+canvasImg+'" alt="">');
