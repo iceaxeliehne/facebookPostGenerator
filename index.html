@@ -28,7 +28,9 @@
             console.log("click detected!!!!");
             console.log($('#raw_html').val());
             $("#newContent").html($('#raw_html').val());
-            html2canvas($("#newContent"), {  
+            html2canvas($("#newContent"), {
+                useCORS: false,
+                logging: true,  
                 onrendered: function (canvas) {
                     var canvasImg = canvas.toDataURL("image/jpg");
                     $('#canvasImg').html('<img src="'+canvasImg+'" alt="">');
