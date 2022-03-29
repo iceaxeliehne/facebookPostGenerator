@@ -1,32 +1,171 @@
-<div class="wp-block-lazyblock-program-advert lazyblock-program-advert-ZO8EwF"><style>@media only screen and (max-width:480px){.program-in-mobile{display:block}.program-in-desktop{display:none}#tabletopsubTitle{font-size:x-large}}@media only screen and (min-width:480px){.program-in-mobile{display:none}.program-in-desktop{display:block}#tabletopsubTitle{font-size:xx-large}}.parent{position:relative;width:100%}#tabletopone,#tabletoptwo{height:400px;width:65%}#tabletopone{left:0;top:0;background-image:url(https://autoknowmentoring.com.au/wp-content/uploads/2022/03/play-recreation-colorful-bead-board-game-art-1087634-pxhere.com_-scaled.jpg);-webkit-clip-path:polygon(0 0,100% 0%,50% 100%,0% 100%);clip-path:polygon(0 0,100% 0%,50% 100%,0% 100%);background-position:0% 0%;background-size:100%;float:left}#tabletoptwo{right:0;top:0;background-image:url(https://autoknowmentoring.com.au/wp-content/uploads/2022/03/Pokemon_collection.jpg);-webkit-clip-path:polygon(50% 0,100% 0%,100% 100%,0% 100%);clip-path:polygon(50% 0,100% 0%,100% 100%,0% 100%);background-position:0 68%;background-size:100%;margin-left:auto}#tabletopmyTitle{position:absolute;text-align:center;width:100%;top:50px;z-index:1000}#tabletoptitleText{font-family:'Roboto';float:center;color:#fff;padding-top:20px}#tabletoptitleBox{justify-content:center;width:60%;background:rgba(244,41,41,.76);z-index:900;margin-left:auto;margin-right:auto;left:0;right:0;margin-bottom:auto;top:50px;bottom:0;text-align:center;border-radius:50px}#tabletopsubTitle{color:#fff}#tabletopmyDescriptionDescktop{position:relative;text-align:center;width:60%;margin-left:20%;background:#000;padding-left:10px;padding-right:10px;font-size:18px;font-weight:bold;color:#fff}#tabletopmyDescriptionDescktop p{margin:17px 0 11px}#tabletopmyDescriptionMobile{position:relative;text-align:center;width:90%;margin-left:5%;background:#000;padding-left:10px;padding-right:10px;font-size:18px;font-weight:bold;color:#fff}#tabletopmyDescriptionMobile p{margin:17px 0 11px}</style>
-<!---->
-<!--  <h1>Table top and card game design</h1>-->
-<!---->
-<div class="parent">
-  <div>
-  <div id="tabletopmyTitle">
-      <div>
-        <div id="tabletoptitleBox">
-          <h1 id="tabletoptitleText">Table top and card game design</h1>
-          <p id="tabletopsubTitle">Create a prototype of your game idea</p>
+<div class="wp-block-lazyblock-program-advert lazyblock-program-advert-ZO8EwF">
+  <style>
+    @media only screen and (max-width:480px) {
+      .program-in-mobile {
+        display: block
+      }
+
+      .program-in-desktop {
+        display: none
+      }
+
+      #tabletopsubTitle {
+        font-size: x-large
+      }
+    }
+
+    @media only screen and (min-width:480px) {
+      .program-in-mobile {
+        display: none
+      }
+
+      .program-in-desktop {
+        display: block
+      }
+
+      #tabletopsubTitle {
+        font-size: xx-large
+      }
+    }
+
+    .parent {
+      position: relative;
+      width: 100%
+    }
+
+    #tabletopone,
+    #tabletoptwo {
+      height: 400px;
+      width: 65%
+    }
+
+    #tabletopone {
+      left: 0;
+      top: 0;
+      background-image: url(https://autoknowmentoring.com.au/wp-content/uploads/2022/03/play-recreation-colorful-bead-board-game-art-1087634-pxhere.com_-scaled.jpg);
+      -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+      clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+      background-position: 0% 0%;
+      background-size: 100%;
+      float: left
+    }
+
+    #tabletoptwo {
+      right: 0;
+      top: 0;
+      background-image: url(https://autoknowmentoring.com.au/wp-content/uploads/2022/03/Pokemon_collection.jpg);
+      -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+      background-position: 0 68%;
+      background-size: 100%;
+      margin-left: auto
+    }
+
+    #tabletopmyTitle {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      top: 50px;
+      z-index: 1000
+    }
+
+    #tabletoptitleText {
+      font-family: 'Roboto';
+      float: center;
+      color: #fff;
+      padding-top: 20px
+    }
+
+    #tabletoptitleBox {
+      justify-content: center;
+      width: 60%;
+      background: rgba(244, 41, 41, .76);
+      z-index: 900;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      margin-bottom: auto;
+      top: 50px;
+      bottom: 0;
+      text-align: center;
+      border-radius: 50px
+    }
+
+    #tabletopsubTitle {
+      color: #fff
+    }
+
+    #tabletopmyDescriptionDescktop {
+      position: relative;
+      text-align: center;
+      width: 60%;
+      margin-left: 20%;
+      background: #000;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff
+    }
+
+    #tabletopmyDescriptionDescktop p {
+      margin: 17px 0 11px
+    }
+
+    #tabletopmyDescriptionMobile {
+      position: relative;
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+      background: #000;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff
+    }
+
+    #tabletopmyDescriptionMobile p {
+      margin: 17px 0 11px
+    }
+  </style>
+  <!---->
+  <!--  <h1>Table top and card game design</h1>-->
+  <!---->
+  <div class="parent">
+    <div>
+      <div id="tabletopmyTitle">
+        <div>
+          <div id="tabletoptitleBox">
+            <h1 id="tabletoptitleText">Table top and card game design</h1>
+            <p id="tabletopsubTitle">Create a prototype of your game idea</p>
+          </div>
         </div>
       </div>
-  </div>
-  <!--<div id="tabletoptitleBox">-->
-  <!--</div>-->
-  
-  <div id="tabletopone"></div>
-  <div id="tabletoptwo"></div>
-  
-<!--</div>-->
-<div id="tabletopmyDescriptionDescktop" class="program-in-desktop">
+      <!--<div id="tabletoptitleBox">-->
+      <!--</div>-->
 
-<p>Design, build, and publish your own card or table top game. This course uses digital tools to design cards and pieces, prototype your game virtually using code, and learn transferable design skills like HTML and CSS. You&#8217;ll walk away with a game that you can play with friends and family while having fun learning how to create and test a prototype.</p>
-<a href="https://autoknowmentoring.com.au/#contact" class="btn btn-md btn-primary hestia-subscribe-button">Contact us about this program</a>
-</div>
-<div id="tabletopmyDescriptionMobile" class="program-in-mobile">
+      <div id="tabletopone"></div>
+      <div id="tabletoptwo"></div>
 
-<p>Design, build, and publish your own card or table top game. This course uses digital tools to design cards and pieces, prototype your game virtually using code, and learn transferable design skills like HTML and CSS. You&#8217;ll walk away with a game that you can play with friends and family while having fun learning how to create and test a prototype.</p>
-<a href="https://autoknowmentoring.com.au/#contact" class="btn btn-md btn-primary hestia-subscribe-button">Contact us about this program</a>
-</div>
-</div>
+      <!--</div>-->
+      <div id="tabletopmyDescriptionDescktop" class="program-in-desktop">
+
+        <p>Design, build, and publish your own card or table top game. This course uses digital tools to design cards
+          and pieces, prototype your game virtually using code, and learn transferable design skills like HTML and CSS.
+          You&#8217;ll walk away with a game that you can play with friends and family while having fun learning how to
+          create and test a prototype.</p>
+        <a href="https://autoknowmentoring.com.au/#contact"
+          class="btn btn-md btn-primary hestia-subscribe-button">Contact us about this program</a>
+      </div>
+      <div id="tabletopmyDescriptionMobile" class="program-in-mobile">
+
+        <p>Design, build, and publish your own card or table top game. This course uses digital tools to design cards
+          and pieces, prototype your game virtually using code, and learn transferable design skills like HTML and CSS.
+          You&#8217;ll walk away with a game that you can play with friends and family while having fun learning how to
+          create and test a prototype.</p>
+        <a href="https://autoknowmentoring.com.au/#contact"
+          class="btn btn-md btn-primary hestia-subscribe-button">Contact us about this program</a>
+      </div>
+    </div>
